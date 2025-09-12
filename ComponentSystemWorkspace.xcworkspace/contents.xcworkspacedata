@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
-   version = "1.0">
+   version = "1.1">
    <FileRef
       location = "group:Examples/ComponentSystemExample/ComponentSystemExample.xcodeproj">
    </FileRef>
+
    <FileRef
-      location = "absolute:/Users/station3/Documents/ComponentSystem"
-      name = "ComponentSystem">
-    </FileRef>
+      location = "group:">
+   </FileRef>
 </Workspace>
