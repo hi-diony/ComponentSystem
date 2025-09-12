@@ -1,8 +1,5 @@
 {
-  "colors" : [
-    {
-      "idiom" : "universal"
-    }
+  "images" : [
   ],
   "info" : {
     "author" : "xcode",
