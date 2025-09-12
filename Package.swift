@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ComponentSystem",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v17)
     ],
@@ -19,8 +20,7 @@ let package = Package(
         .package(url: "https://github.com/layoutBox/FlexLayout.git", from: "2.2.2")
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
+        // Main library target
         .target(
             name: "ComponentSystem",
             dependencies: [
@@ -28,6 +28,15 @@ let package = Package(
                 .product(name: "FlexLayout", package: "FlexLayout")
             ]
         ),
+        
+        // Example app target (not included in products, so not distributed)
+        .executableTarget(
+            name: "Example",
+            dependencies: ["ComponentSystem"],
+            path: "Example"
+        ),
+        
+        // Test target
         .testTarget(
             name: "ComponentSystemTests",
             dependencies: ["ComponentSystem"]
