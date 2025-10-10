@@ -32,6 +32,10 @@ class ToastManager: OperationQueue {
         operation?.cancel()
     }
     
+    @MainActor func setup() {
+        _ = KeyboardManager.shared
+    }
+    
     private func cancelCurrentOperation() {
         let executingOperations = operations.filter { $0.isExecuting }
         executingOperations.forEach { $0.cancel() }

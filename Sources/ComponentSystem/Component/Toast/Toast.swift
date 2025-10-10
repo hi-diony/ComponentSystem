@@ -61,4 +61,8 @@ public struct Toast: Equatable {
     public func cancel() {
         ToastManager.shared.cancel(id: id)
     }
+
+    @MainActor static public func setup() {
+        ToastManager.shared.setup()
+    }
 }

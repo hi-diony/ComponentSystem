@@ -1,5 +1,6 @@
 // SceneDelegate.swift
 import UIKit
+import ComponentSystem
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
@@ -12,5 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.rootViewController = navigationController
         self.window = window
         window.makeKeyAndVisible()
+        
+        Toast.setup()
     }
 }
