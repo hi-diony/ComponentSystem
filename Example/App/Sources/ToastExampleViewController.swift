@@ -1,18 +1,4 @@
 //
-//  ToastViewController.swift
-//  ComponentSystemExample
-//
-//  Created by Station3 on 9/12/25.
-//  Copyright © 2025 ComponentSystem. All rights reserved.
-//
-
-import Foundation
-import PinLayout
-import FlexLayout
-import UIKit
-import ComponentSystem
-
-//
 //  ToastExampleViewController.swift
 //  ComponentSystemExample
 //

@@ -77,7 +77,8 @@ final class ToastOperation: Operation {
             ToastWindow.shared.show(view: toastView, animated: true)
         }
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + toast.duration) { [weak self] in
+        let millisecond = toast.second * 1000
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(Int(millisecond))) { [weak self] in
             guard let self = self else { return }
             guard let toastView = self.toastView else { return }
             ToastWindow.shared.hide(view: toastView, animated: true)

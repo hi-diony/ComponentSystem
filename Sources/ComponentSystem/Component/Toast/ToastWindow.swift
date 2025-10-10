@@ -11,7 +11,16 @@ final class ToastWindow: UIWindow {
     static let shared = ToastWindow()
     
     private init() {
-        super.init(frame: UIScreen.main.bounds)
+        if let windowScene = UIApplication.shared.connectedScenes
+            .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+            super.init(windowScene: windowScene)
+        }
+        else if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            super.init(windowScene: windowScene)
+        }
+        else {
+            super.init(frame: UIScreen.main.bounds)
+        }
         
         setupWindow()
     }

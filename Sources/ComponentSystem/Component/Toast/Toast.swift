@@ -15,7 +15,7 @@ public struct Toast: Equatable {
     let id: String = UUID().uuidString
     var isShowing: Bool
     let message: String
-    let duration: TimeInterval
+    let second: TimeInterval
     let bottomPadding: CGFloat // bottom padding from safearea
     let queue: Bool
     
@@ -26,7 +26,7 @@ public struct Toast: Equatable {
                 queue: Bool = true) {
         self.isShowing = isShowing
         self.message = message
-        self.duration = duration
+        self.second = duration
         self.bottomPadding = bottomPadding ?? Self.DefaultBottomPadding
         self.queue = queue
     }
@@ -37,7 +37,7 @@ public struct Toast: Equatable {
                 queue: Bool = true) {
         self.isShowing = message.isEmpty == false
         self.message = message
-        self.duration = duration
+        self.second = duration
         self.bottomPadding = Self.DefaultBottomPadding + additionalPadding
         self.queue = queue
     }
@@ -49,7 +49,7 @@ public struct Toast: Equatable {
         let newText = text ?? ""
         self.isShowing = newText.isEmpty == false
         self.message = newText
-        self.duration = duration
+        self.second = duration
         self.bottomPadding = Self.DefaultBottomPadding + additionalPadding
         self.queue = queue
     }
