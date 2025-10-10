@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C377183AB3B42F4752A2AB9 /* CardExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA95BBB87AC6BA68A91ECA3 /* CardExampleViewController.swift */; };
-		171C5F88A891D3B8F99E0682 /* LoaderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF791B54F79C6B3A0B9D06A /* LoaderExampleViewController.swift */; };
-		244E292AA718E3F44556408B /* AlertExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7FB14C83E115F131E0E3F /* AlertExampleViewController.swift */; };
+		259E72B915B6D622816FA88A /* ToastExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED5A44312430342E62FA05 /* ToastExampleViewController.swift */; };
+		2FC05B6BC638C53E053A658F /* LoaderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E116E25F7865FD99997BB7 /* LoaderExampleViewController.swift */; };
+		3C2C52007DA75D964175509C /* ButtonGroupUIKitExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2980D83369D156021177A /* ButtonGroupUIKitExampleViewController.swift */; };
+		43578530539FA298D4F8B735 /* ComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EA8E66F0261F322D281881 /* ComponentType.swift */; };
 		4EE32A2C0ACF8248B4A9F166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B008278E4A5A2E9DF30E2BBD /* Assets.xcassets */; };
-		6481DEC1252E173DD6A86A85 /* TextFieldExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE48A048A0662B158D52CA /* TextFieldExampleViewController.swift */; };
+		6D2873002BF9CDF87EABF076 /* CardExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7F1E43774F420E806144E /* CardExampleViewController.swift */; };
+		6F0EC8D93A7C91DD85D1AE01 /* ButtonGroupSwiftUIExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166B4F8BA162FE402A363F0 /* ButtonGroupSwiftUIExampleViewController.swift */; };
+		7F9EF88DFE3614C1AD1510C6 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC35543730CC58998B1087 /* OptionView.swift */; };
 		816220B889994A2A50A64BCC /* TuistAssets+ComponentSystemExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54A9335C583F2D9B253F24C /* TuistAssets+ComponentSystemExample.swift */; };
+		90D2E01976BA7EA2F1DC1AC0 /* ButtonExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E077A943A06746079BFAC1 /* ButtonExampleViewController.swift */; };
+		A23947C5C3EF26CE3FB478A0 /* AlertExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2C92302F43BB4AB233BCA /* AlertExampleViewController.swift */; };
+		AA95A1BAD55B12151ED2C3D7 /* ComponentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B9799D639B7D1AB9F7E80 /* ComponentListViewController.swift */; };
 		BAB8FF933EAC7C8D1BEE16BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1924B904982D7568EBB0AB /* AppDelegate.swift */; };
-		CA5F8AEF3E89943A29B79D2B /* ButtonExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD50BB00A799255F3D3DA0 /* ButtonExampleViewController.swift */; };
-		CE8542C22E740B3D0091F144 /* ComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8542C12E740B3D0091F144 /* ComponentType.swift */; };
-		CE8542C42E7411560091F144 /* ToastExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8542C32E7411560091F144 /* ToastExampleViewController.swift */; };
-		CECD36A52E98C92C00095620 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD36A42E98C92C00095620 /* OptionView.swift */; };
-		D3D848BAF5E513A85D36EB89 /* ComponentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53BA169D1818F25E7EF81DE /* ComponentListViewController.swift */; };
+		BE77BE885999DB5D41F99A64 /* TextFieldExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA9641BA5078C3651FC8D76 /* TextFieldExampleViewController.swift */; };
 		D5E1D7C8FB75941ED808050B /* ComponentSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 4E15355CF6E2D4B0A3DD9C8C /* ComponentSystem */; };
 		DE1AB51BD8B39C09AFEE78CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8640E63986433D11E5E74032 /* SceneDelegate.swift */; };
 		E92B8A2DB16F281811760666 /* TuistBundle+ComponentSystemExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611CEFC4A11CAB78D8B59FE /* TuistBundle+ComponentSystemExample.swift */; };
@@ -40,23 +42,25 @@
 
 /* Begin PBXFileReference section */
 		05A9272D467C949952D2647E /* ComponentSystem */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ComponentSystem; path = .; sourceTree = "<group>"; };
+		3166B4F8BA162FE402A363F0 /* ButtonGroupSwiftUIExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGroupSwiftUIExampleViewController.swift; sourceTree = "<group>"; };
+		32E116E25F7865FD99997BB7 /* LoaderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderExampleViewController.swift; sourceTree = "<group>"; };
+		39EA8E66F0261F322D281881 /* ComponentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentType.swift; sourceTree = "<group>"; };
+		417B9799D639B7D1AB9F7E80 /* ComponentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentListViewController.swift; sourceTree = "<group>"; };
+		4DC7F1E43774F420E806144E /* CardExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardExampleViewController.swift; sourceTree = "<group>"; };
+		4EA9641BA5078C3651FC8D76 /* TextFieldExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleViewController.swift; sourceTree = "<group>"; };
+		5DE2980D83369D156021177A /* ButtonGroupUIKitExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGroupUIKitExampleViewController.swift; sourceTree = "<group>"; };
 		73EE7AFD834FA6497DF68B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8640E63986433D11E5E74032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89E077A943A06746079BFAC1 /* ButtonExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleViewController.swift; sourceTree = "<group>"; };
 		8A6ECCD694A5F026E169BC4E /* ComponentSystemExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComponentSystemExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD2C92302F43BB4AB233BCA /* AlertExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleViewController.swift; sourceTree = "<group>"; };
+		8EEC35543730CC58998B1087 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
 		9687975A72115C80F4D46E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		ABF791B54F79C6B3A0B9D06A /* LoaderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderExampleViewController.swift; sourceTree = "<group>"; };
 		B008278E4A5A2E9DF30E2BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2F7FB14C83E115F131E0E3F /* AlertExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleViewController.swift; sourceTree = "<group>"; };
-		B53BA169D1818F25E7EF81DE /* ComponentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentListViewController.swift; sourceTree = "<group>"; };
-		C7AD50BB00A799255F3D3DA0 /* ButtonExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleViewController.swift; sourceTree = "<group>"; };
-		CE8542C12E740B3D0091F144 /* ComponentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentType.swift; sourceTree = "<group>"; };
-		CE8542C32E7411560091F144 /* ToastExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastExampleViewController.swift; sourceTree = "<group>"; };
-		CECD36A42E98C92C00095620 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
-		D9BE48A048A0662B158D52CA /* TextFieldExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleViewController.swift; sourceTree = "<group>"; };
 		EB1924B904982D7568EBB0AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54A9335C583F2D9B253F24C /* TuistAssets+ComponentSystemExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+ComponentSystemExample.swift"; sourceTree = "<group>"; };
 		F611CEFC4A11CAB78D8B59FE /* TuistBundle+ComponentSystemExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+ComponentSystemExample.swift"; sourceTree = "<group>"; };
-		FAA95BBB87AC6BA68A91ECA3 /* CardExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardExampleViewController.swift; sourceTree = "<group>"; };
+		F8ED5A44312430342E62FA05 /* ToastExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +75,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24B8977B3700C2DC387F654B /* ComponentList */ = {
+		2BC5968EFC7E12316E0BD4DB /* ComponentList */ = {
 			isa = PBXGroup;
 			children = (
-				CE8542C12E740B3D0091F144 /* ComponentType.swift */,
-				B53BA169D1818F25E7EF81DE /* ComponentListViewController.swift */,
+				417B9799D639B7D1AB9F7E80 /* ComponentListViewController.swift */,
+				39EA8E66F0261F322D281881 /* ComponentType.swift */,
 			);
 			path = ComponentList;
 			sourceTree = "<group>";
@@ -128,16 +132,17 @@
 		B14969F219333AEA800DB115 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CECD36A42E98C92C00095620 /* OptionView.swift */,
-				24B8977B3700C2DC387F654B /* ComponentList */,
+				CECF8E722E98F1D900E42079 /* ButtonGroup */,
+				CECF8E712E98F1CF00E42079 /* Toast */,
+				2BC5968EFC7E12316E0BD4DB /* ComponentList */,
+				8BD2C92302F43BB4AB233BCA /* AlertExampleViewController.swift */,
 				EB1924B904982D7568EBB0AB /* AppDelegate.swift */,
+				89E077A943A06746079BFAC1 /* ButtonExampleViewController.swift */,
+				4DC7F1E43774F420E806144E /* CardExampleViewController.swift */,
+				32E116E25F7865FD99997BB7 /* LoaderExampleViewController.swift */,
+				8EEC35543730CC58998B1087 /* OptionView.swift */,
 				8640E63986433D11E5E74032 /* SceneDelegate.swift */,
-				B2F7FB14C83E115F131E0E3F /* AlertExampleViewController.swift */,
-				C7AD50BB00A799255F3D3DA0 /* ButtonExampleViewController.swift */,
-				FAA95BBB87AC6BA68A91ECA3 /* CardExampleViewController.swift */,
-				ABF791B54F79C6B3A0B9D06A /* LoaderExampleViewController.swift */,
-				D9BE48A048A0662B158D52CA /* TextFieldExampleViewController.swift */,
-				CE8542C32E7411560091F144 /* ToastExampleViewController.swift */,
+				4EA9641BA5078C3651FC8D76 /* TextFieldExampleViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -157,6 +162,23 @@
 				B1B87A0883E5DE95CED7C6E5 /* Products */,
 				F1281C2BDA80ADEE711A5810 /* Packages */,
 			);
+			sourceTree = "<group>";
+		};
+		CECF8E712E98F1CF00E42079 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED5A44312430342E62FA05 /* ToastExampleViewController.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		CECF8E722E98F1D900E42079 /* ButtonGroup */ = {
+			isa = PBXGroup;
+			children = (
+				3166B4F8BA162FE402A363F0 /* ButtonGroupSwiftUIExampleViewController.swift */,
+				5DE2980D83369D156021177A /* ButtonGroupUIKitExampleViewController.swift */,
+			);
+			path = ButtonGroup;
 			sourceTree = "<group>";
 		};
 		DB197CF96BD8C8101CA6A333 /* Derived */ = {
@@ -246,19 +268,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8542C22E740B3D0091F144 /* ComponentType.swift in Sources */,
 				816220B889994A2A50A64BCC /* TuistAssets+ComponentSystemExample.swift in Sources */,
 				E92B8A2DB16F281811760666 /* TuistBundle+ComponentSystemExample.swift in Sources */,
+				A23947C5C3EF26CE3FB478A0 /* AlertExampleViewController.swift in Sources */,
 				BAB8FF933EAC7C8D1BEE16BB /* AppDelegate.swift in Sources */,
-				D3D848BAF5E513A85D36EB89 /* ComponentListViewController.swift in Sources */,
-				244E292AA718E3F44556408B /* AlertExampleViewController.swift in Sources */,
-				CA5F8AEF3E89943A29B79D2B /* ButtonExampleViewController.swift in Sources */,
-				0C377183AB3B42F4752A2AB9 /* CardExampleViewController.swift in Sources */,
-				CECD36A52E98C92C00095620 /* OptionView.swift in Sources */,
-				171C5F88A891D3B8F99E0682 /* LoaderExampleViewController.swift in Sources */,
-				6481DEC1252E173DD6A86A85 /* TextFieldExampleViewController.swift in Sources */,
-				CE8542C42E7411560091F144 /* ToastExampleViewController.swift in Sources */,
+				90D2E01976BA7EA2F1DC1AC0 /* ButtonExampleViewController.swift in Sources */,
+				6F0EC8D93A7C91DD85D1AE01 /* ButtonGroupSwiftUIExampleViewController.swift in Sources */,
+				3C2C52007DA75D964175509C /* ButtonGroupUIKitExampleViewController.swift in Sources */,
+				6D2873002BF9CDF87EABF076 /* CardExampleViewController.swift in Sources */,
+				AA95A1BAD55B12151ED2C3D7 /* ComponentListViewController.swift in Sources */,
+				43578530539FA298D4F8B735 /* ComponentType.swift in Sources */,
+				2FC05B6BC638C53E053A658F /* LoaderExampleViewController.swift in Sources */,
+				7F9EF88DFE3614C1AD1510C6 /* OptionView.swift in Sources */,
 				DE1AB51BD8B39C09AFEE78CA /* SceneDelegate.swift in Sources */,
+				BE77BE885999DB5D41F99A64 /* TextFieldExampleViewController.swift in Sources */,
+				259E72B915B6D622816FA88A /* ToastExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +306,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 20250912;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Example/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -290,7 +313,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.componentsystem.example;
 				PRODUCT_NAME = ComponentSystemExample;
 				SDKROOT = iphoneos;
@@ -422,7 +444,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 20250912;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Example/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -430,7 +451,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.componentsystem.example;
 				PRODUCT_NAME = ComponentSystemExample;
 				SDKROOT = iphoneos;

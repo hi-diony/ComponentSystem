@@ -78,6 +78,15 @@ extension ComponentListViewController: UITableViewDelegate {
         case .toast:
             let vc = ToastExampleViewController()
             navigationController?.pushViewController(vc, animated: true)
+        case .buttonGroupUIKit:
+            let alert = UIAlertController(title: "Unavailable",
+                                          message: "UIKit 예제는 현재 준비되지 않았습니다.",
+                                          preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            present(alert, animated: true)
+        case .buttonGroupSwiftUI:
+            let vc = ButtonGroupSwiftUIExampleViewController()
+            navigationController?.pushViewController(vc, animated: true)
 //        case .card:
 //            viewController = CardExampleViewController()
 //        case .alert:
