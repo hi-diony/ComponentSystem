@@ -32,8 +32,9 @@ final class ComponentListViewController: UIViewController {
     }
     
     private func setupUI() {
-        view.backgroundColor = .systemGroupedBackground
+        title = "Component System"
         
+        view.backgroundColor = .systemGroupedBackground
         tableView.delegate = self
     }
     

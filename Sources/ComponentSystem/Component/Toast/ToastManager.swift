@@ -18,6 +18,8 @@ class ToastManager: OperationQueue {
     }
     
     func show(toast: Toast) {
+        guard toast.isShowing == true else { return }
+        
         if toast.queue == false {
             cancelCurrentOperation()
         }
